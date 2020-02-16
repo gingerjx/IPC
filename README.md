@@ -46,4 +46,4 @@ Client goal is to collect the rewards and store them in campside. Client cannot 
 ### Server view
 ![img](/Server.png)
 ### Client view ( 4 clients in 4 terminals ) 
-![img](/4PLayers.png)
+![img](/4Players.png)
