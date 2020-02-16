@@ -26,10 +26,10 @@ And clients (remember about ID):
 
 IPC project is visualized by simple game where server and clients( cpus and humans ) are separated processes. Server is designed for maximum 4 clients. If user try to execute more clients, server will reject to join him. It is also impossible to execute client with ID that already exists. Server deal with situation where client leave the game in natural way ( by typing Q – only in human ) or killing the process. When closing the server, we also close all clients. After the client quits server is ready to join next client on his place. This communication smoothness is ensured by mechanisms like semaphores, shared memory and threads.
 
-Clients can affect on game only by move requests. Server receives this requests and processes this move, by updating board and game. Server passes information to clients about they surrounding ,status and statistics. They can change them only locally.
+Clients can affect on game only by move requests. Server receives this requests and processes this move, by updating board and game. Server passes information to clients about theirs surrounding, status and statistics. They can change them only locally.
 
 
-## Few word about game
+## Few words about game
 
 Server input:
 
