@@ -44,6 +44,6 @@ Human input:
 Client goal is to collect the rewards and store them in campside. Client cannot go through wall and bushes slow him down. In case of collision with other client or beast, client lost his treasure and leave on the map.  
 
 ### Server view
-![img](/ss.png)
-### Client view
-![img](/ss.png)
+![img](/Server.png)
+### Client view ( 4 clients in 4 terminals ) 
+![img](/4PLayers.png)
